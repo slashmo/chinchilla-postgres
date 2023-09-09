@@ -1,0 +1,15 @@
+{
+  "name": "chinchilla-postgres",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "chinchilla-postgres",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": ["sswg.swift-lang"],
+      "settings": {
+        "lldb.library": "/usr/lib/liblldb.so"
+      }
+    }
+  }
+}
